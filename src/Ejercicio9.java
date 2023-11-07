@@ -10,11 +10,13 @@ public class Ejercicio9 {
         System.out.println("Introduce el terce numero");
         int num3= Numero.nextInt();
 
-        if (num1!=num2+1 && num2!= num3+1 ){
+        if (num1+1==num2 && num2+1==num3 || num1-1==num2 && num2-1==num3){
             System.out.println("Los numeros son conseutivos");
 
         }  else {
             System.out.println("Los numeros no son consecutivos");
         }
     }
+
+
 }
